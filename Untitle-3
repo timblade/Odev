@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="Untitled-3.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+    <nav>
+      <ul>
+        <li><a href="biographic_info.html">Biographic</a></li>
+        <li><a href="about_me.html">About Me</a></li>
+        <li><a href="skills.html">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="biographic">
+      <h2>Biographic Information</h2>
+      <input type="text" id="biographic-form-container" placeholder="Biographic Information">
+    </section>
+    <button id="biographic-form-container">Edit Button</button>
+
+
+    <section id="aboutme">
+      <h2>About Me</h2>
+      <input type="text" id="biographic-form-container" placeholder="About Me">
+    </section>
+    <button id="biographic-form-container">Edit Button</button>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <input type="text" id="biographic-form-container" placeholder="Skills">
+    </section>
+    <button id="biographic-form-container">Edit Button</button>
+
+  </main>
+
+  <script src="Untitled-3.js"></script>
+</body>
+</html>
