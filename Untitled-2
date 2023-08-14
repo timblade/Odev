@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Biographic Website</title>
+  <link rel="stylesheet" href="Untitled-2.css">
+</head>
+<body>
+  <header>
+    <img src="TGK_logo.png" alt="Website Logo" class="logo">
+    <h1>Biographic Website</h1>
+    <nav>
+    <div class="menu_dropdown" tabindex="0"> 
+        <a img src="liness.png"></a>   
+    </div>
+    </nav>
+  </header>
+  <div class="main">
+    <section id="biographic-info">
+      <img src="profile_photo.png" alt="profile_photo" class="profile-picture">
+      <h2>Biographic Information</h2>
+      <small1>
+        Ben Timucin Gurol Kilinc. 16 Haziran 2000 tarihinde Erzurum'da dogrum. Ilk okul ve liseyi Erzurum'da okudum. Universite icin Istanbul'a tasindim. Istanbul Aydin Universitesinde Yazilim Muhebdisligi okuyorum.
+      </small1>
+      <div id="biographic-form-container"></div>
+    </section>
+
+    <div class="about">
+      <section id="about">
+        <img src="reading.png" alt="reading_photo" class="logo">
+        <h2>About Me</h2>
+        <small2>
+          Bos zamanlarimda yuruyus yapmayi, kitap okumayi, muzik dinlemeyi, dizi film ve anime izlemeyi, video oyunlari oynamayi severim. Ayni zamanda kayak kaymak, yuzmek ve basketbol oynamak favori sporlarim arasinda. Muzik olarak genelde soundtrack dinlesem de metal, jazz, rap dinlemeyi de severim.
+        </small2>
+        <div id="about-content">
+          <div id="about-me-form-container"></div>
+        </div>
+      </section>      
+    </div>
+    
+    <div class="skills">
+    <section id="skills">
+      <img src="Book.png" alt="Book_photo" class="logo">
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul id="skills-list">
+          <li src="java_logo.png" alt="Java">Java</li>
+          <li src="C++_logo.png" alt="C++">C++</li>
+          <li src="HTML5_logo.png" alt="HTML">HTML</li>
+          <li src="CSS3_logo.png" alt="CSS">CSS</li>
+          <li src="javascript-logo.png" alt="JavaScript">JavaScript</li>
+          <li src="#" alt="Office Apps">Office Apps</li>
+        <div id="skills-form-container"></div>
+      </ul>
+    </section>
+  </div>
+    <section id="contact">
+        <a img src="phone.png"></a>
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email" name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </div>    
+  <script src="Personal_website.js"></script>
+</div>
+</body>
+</html>
